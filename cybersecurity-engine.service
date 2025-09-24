@@ -1,0 +1,40 @@
+[Unit]
+Description=Self-Morphing AI Cybersecurity Engine
+Documentation=https://github.com/your-repo/hacker_game
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=cybersecurity
+Group=cybersecurity
+WorkingDirectory=/opt/cybersecurity-engine
+ExecStart=/usr/bin/python3 /opt/cybersecurity-engine/autonomous_start.py
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cybersecurity-engine
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/cybersecurity-engine/data /opt/cybersecurity-engine/models /opt/cybersecurity-engine/logs
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+MemoryMax=4G
+CPUQuota=200%
+
+# Environment
+Environment=PYTHONPATH=/opt/cybersecurity-engine
+Environment=PYTHONUNBUFFERED=1
+Environment=AUTONOMOUS_MODE=true
+Environment=LOG_LEVEL=INFO
+
+[Install]
+WantedBy=multi-user.target
