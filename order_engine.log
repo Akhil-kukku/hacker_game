@@ -1,0 +1,1543 @@
+2025-09-25 20:35:00,707 - ORDER - INFO - ML models initialized successfully
+2025-09-25 20:35:00,707 - ORDER - ERROR - Failed to initialize network monitoring: 'monitor_interfaces'
+2025-09-25 20:35:00,711 - ORDER - ERROR - Failed to load IOC database: 'ioc_database_path'
+2025-09-25 20:35:00,711 - ORDER - ERROR - Failed to initialize threat intelligence: 'enable_yara'
+2025-09-25 20:35:00,713 - ORDER - INFO - Background processing thread started
+2025-09-25 20:35:00,713 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 20:35:00,713 - ORDER - ERROR - Failed to initialize components: 'nmap program was not found in path. PATH is : C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cv2\\../../x64/vc14/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Singh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Users\\Singh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\CLion 2022.2.4\\bin;C:\\Program Files\\PostgreSQL\\15\\bin;;C:\\Dev\\flutter;C:\\Users\\Singh\\AppData\\Roaming\\npm;C:\\Users\\Singh\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;c:\\Users\\Singh\\.cursor\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts'
+2025-09-25 20:35:00,713 - ORDER - ERROR - Engine failed to start: 'nmap program was not found in path. PATH is : C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cv2\\../../x64/vc14/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Singh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\Singh\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Users\\Singh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\CLion 2022.2.4\\bin;C:\\Program Files\\PostgreSQL\\15\\bin;;C:\\Dev\\flutter;C:\\Users\\Singh\\AppData\\Roaming\\npm;C:\\Users\\Singh\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;c:\\Users\\Singh\\.cursor\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts'
+2025-09-25 20:55:25,248 - ORDER - INFO - ML models initialized successfully
+2025-09-25 20:55:25,262 - ORDER - INFO - Monitoring interfaces: ['{ED61AD5B-C597-4E23-A5E6-1A2F0DC8B3C3}', '{0F2F4862-0DAB-4D8E-B75E-A113C6D21CEE}', '{9ABEB3C2-14C3-4078-B028-4A8D3265ABEA}', '{E8BC505F-4FB4-4686-BF1D-0E8656845AE2}', '{CA03C7D1-3F7B-4952-BDD9-84C4A7BBA27B}', '{D7551071-BD8C-4A95-B745-D08C33D9CD7D}', '{B072E7CB-43EC-4102-B066-811F75278EC8}', '{283C5710-0096-11EB-BE85-806E6F6E6963}']
+2025-09-25 20:55:25,262 - ORDER - INFO - Network monitoring initialized
+2025-09-25 20:55:25,267 - ORDER - ERROR - Failed to load YARA rules: rules/yara_rules.yar(1): syntax error, unexpected string count
+2025-09-25 20:55:25,267 - ORDER - ERROR - Failed to initialize threat intelligence: 'threat_intel_feeds'
+2025-09-25 20:55:25,268 - ORDER - INFO - Background processing thread started
+2025-09-25 20:55:25,269 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 20:55:25,563 - ORDER - ERROR - Failed to initialize intelligence tools: 'geoip_db_path'
+2025-09-25 20:55:25,563 - ORDER - ERROR - Failed to initialize counterattack infrastructure: 'enable_honeypots'
+2025-09-25 20:55:25,563 - ORDER - ERROR - Failed to initialize components: 'enable_intelligence_gathering'
+2025-09-25 20:55:25,563 - ORDER - ERROR - Engine failed to start: 'enable_intelligence_gathering'
+2025-09-25 21:04:28,505 - ORDER - INFO - ML models initialized successfully
+2025-09-25 21:04:28,505 - ORDER - INFO - Monitoring interfaces: ['{ED61AD5B-C597-4E23-A5E6-1A2F0DC8B3C3}', '{0F2F4862-0DAB-4D8E-B75E-A113C6D21CEE}', '{9ABEB3C2-14C3-4078-B028-4A8D3265ABEA}', '{E8BC505F-4FB4-4686-BF1D-0E8656845AE2}', '{CA03C7D1-3F7B-4952-BDD9-84C4A7BBA27B}', '{D7551071-BD8C-4A95-B745-D08C33D9CD7D}', '{B072E7CB-43EC-4102-B066-811F75278EC8}', '{283C5710-0096-11EB-BE85-806E6F6E6963}']
+2025-09-25 21:04:28,505 - ORDER - INFO - Network monitoring initialized
+2025-09-25 21:04:28,521 - ORDER - INFO - YARA rules loaded successfully
+2025-09-25 21:04:28,523 - ORDER - INFO - Threat intelligence feeds started
+2025-09-25 21:04:28,523 - ORDER - INFO - Threat intelligence initialized
+2025-09-25 21:04:28,524 - ORDER - INFO - Background processing thread started
+2025-09-25 21:04:28,524 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 21:04:28,562 - ORDER - INFO - Intelligence tools initialized
+2025-09-25 21:04:28,562 - ORDER - ERROR - Failed to initialize counterattack infrastructure: 'enable_sinkholing'
+2025-09-25 21:04:28,562 - ORDER - INFO - All processing threads started
+2025-09-25 21:04:28,562 - ORDER - INFO - CHAOS Offensive Engine initialized successfully
+2025-09-25 21:04:28,562 - ORDER - ERROR - Neural network initialization failed: 'neural_networks'
+2025-09-25 21:04:28,562 - ORDER - ERROR - Failed to initialize components: 'diversity_threshold'
+2025-09-25 21:04:28,562 - ORDER - ERROR - Engine failed to start: 'diversity_threshold'
+2025-09-25 21:06:58,869 - ORDER - INFO - ML models initialized successfully
+2025-09-25 21:06:58,885 - ORDER - INFO - Monitoring interfaces: ['{ED61AD5B-C597-4E23-A5E6-1A2F0DC8B3C3}', '{0F2F4862-0DAB-4D8E-B75E-A113C6D21CEE}', '{9ABEB3C2-14C3-4078-B028-4A8D3265ABEA}', '{E8BC505F-4FB4-4686-BF1D-0E8656845AE2}', '{CA03C7D1-3F7B-4952-BDD9-84C4A7BBA27B}', '{D7551071-BD8C-4A95-B745-D08C33D9CD7D}', '{B072E7CB-43EC-4102-B066-811F75278EC8}', '{283C5710-0096-11EB-BE85-806E6F6E6963}']
+2025-09-25 21:06:58,885 - ORDER - INFO - Network monitoring initialized
+2025-09-25 21:06:58,886 - ORDER - INFO - YARA rules loaded successfully
+2025-09-25 21:06:58,887 - ORDER - INFO - Threat intelligence feeds started
+2025-09-25 21:06:58,888 - ORDER - INFO - Threat intelligence initialized
+2025-09-25 21:06:58,889 - ORDER - INFO - Background processing thread started
+2025-09-25 21:06:58,889 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 21:06:58,931 - ORDER - INFO - Intelligence tools initialized
+2025-09-25 21:06:58,931 - ORDER - INFO - Setup 3 DNS sinkholes
+2025-09-25 21:06:58,931 - ORDER - INFO - Counterattack infrastructure initialized
+2025-09-25 21:06:58,931 - ORDER - INFO - All processing threads started
+2025-09-25 21:06:58,931 - ORDER - INFO - CHAOS Offensive Engine initialized successfully
+2025-09-25 21:06:58,931 - ORDER - ERROR - Neural network initialization failed: 'layers'
+2025-09-25 21:06:58,931 - ORDER - ERROR - Failed to initialize components: 'convergence_threshold'
+2025-09-25 21:06:58,937 - ORDER - ERROR - Engine failed to start: 'convergence_threshold'
+2025-09-25 21:08:04,502 - ORDER - INFO - ML models initialized successfully
+2025-09-25 21:08:04,504 - ORDER - INFO - Monitoring interfaces: ['{ED61AD5B-C597-4E23-A5E6-1A2F0DC8B3C3}', '{0F2F4862-0DAB-4D8E-B75E-A113C6D21CEE}', '{9ABEB3C2-14C3-4078-B028-4A8D3265ABEA}', '{E8BC505F-4FB4-4686-BF1D-0E8656845AE2}', '{CA03C7D1-3F7B-4952-BDD9-84C4A7BBA27B}', '{D7551071-BD8C-4A95-B745-D08C33D9CD7D}', '{B072E7CB-43EC-4102-B066-811F75278EC8}', '{283C5710-0096-11EB-BE85-806E6F6E6963}']
+2025-09-25 21:08:04,504 - ORDER - INFO - Network monitoring initialized
+2025-09-25 21:08:04,504 - ORDER - INFO - YARA rules loaded successfully
+2025-09-25 21:08:04,511 - ORDER - INFO - Threat intelligence feeds started
+2025-09-25 21:08:04,512 - ORDER - INFO - Threat intelligence initialized
+2025-09-25 21:08:04,512 - ORDER - INFO - Background processing thread started
+2025-09-25 21:08:04,513 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 21:08:04,541 - ORDER - INFO - Intelligence tools initialized
+2025-09-25 21:08:04,542 - ORDER - INFO - Setup 3 DNS sinkholes
+2025-09-25 21:08:04,542 - ORDER - INFO - Counterattack infrastructure initialized
+2025-09-25 21:08:04,544 - ORDER - INFO - All processing threads started
+2025-09-25 21:08:04,545 - ORDER - INFO - CHAOS Offensive Engine initialized successfully
+2025-09-25 21:08:04,545 - ORDER - ERROR - Neural network initialization failed: 'neural_learning_rate'
+2025-09-25 21:08:04,545 - ORDER - INFO - Evolutionary strategy initialized
+2025-09-25 21:08:04,545 - ORDER - ERROR - Pattern recognition initialization failed: 'enable_ensemble_learning'
+2025-09-25 21:08:04,545 - ORDER - INFO - Advanced genetic population initialized with 50 individuals
+2025-09-25 21:08:04,545 - ORDER - INFO - Q-learning table initialized
+2025-09-25 21:08:04,545 - ORDER - INFO - Advanced BALANCE Controller initialized successfully
+2025-09-25 21:08:04,545 - ORDER - INFO - All components initialized successfully
+2025-09-25 21:08:04,545 - ORDER - INFO - Self-Morphing AI Cybersecurity Engine initialized - Professional Cybersecurity Platform
+2025-09-25 21:08:04,552 - ORDER - INFO - Starting Self-Morphing AI Cybersecurity Engine - Professional Cybersecurity Platform...
+2025-09-25 21:08:04,553 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:08:04,553 - ORDER - INFO - Control loop started
+2025-09-25 21:08:04,553 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:04,553 - ORDER - INFO - Simulation loop started
+2025-09-25 21:08:04,555 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:04,555 - ORDER - INFO - Engine started successfully
+2025-09-25 21:08:05,554 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:08:05,554 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:08:05,554 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:08:09,555 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:09,555 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:10,555 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:08:11,556 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:08:12,556 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:08:13,557 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:08:14,556 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:14,557 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:14,557 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:08:15,558 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:08:15,558 - ORDER - INFO - Training model with 225 samples
+2025-09-25 21:08:15,558 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:15,558 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:19,558 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:19,559 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:20,560 - ORDER - INFO - Training model with 300 samples
+2025-09-25 21:08:20,563 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:08:20,563 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:20,563 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:24,560 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:24,560 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:25,564 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:08:25,566 - ORDER - INFO - Training model with 375 samples
+2025-09-25 21:08:25,566 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:25,566 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:29,562 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:29,563 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:30,567 - ORDER - INFO - Training model with 450 samples
+2025-09-25 21:08:30,567 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:08:30,569 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:30,569 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:34,565 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:34,565 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:35,571 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:08:35,571 - ORDER - INFO - Training model with 525 samples
+2025-09-25 21:08:35,571 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:35,571 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:39,566 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:39,566 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:40,575 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:08:40,586 - ORDER - INFO - Training model with 600 samples
+2025-09-25 21:08:40,587 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:40,587 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:44,568 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:44,569 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:45,576 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:08:45,577 - ORDER - INFO - Training model with 675 samples
+2025-09-25 21:08:45,577 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:45,577 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:49,570 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:49,571 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:50,576 - ORDER - INFO - Training model with 750 samples
+2025-09-25 21:08:50,576 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:08:50,576 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:50,576 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:54,572 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:54,572 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:08:55,578 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:08:55,587 - ORDER - INFO - Training model with 825 samples
+2025-09-25 21:08:55,588 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:55,589 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:08:59,573 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:08:59,574 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:00,579 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:09:00,579 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:09:00,580 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:09:00,580 - ORDER - INFO - Training model with 900 samples
+2025-09-25 21:09:00,580 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:00,580 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:00,580 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:00,586 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:04,575 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:04,576 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:05,585 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:09:05,585 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:05,585 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:05,595 - ORDER - INFO - Training model with 975 samples
+2025-09-25 21:09:05,596 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:05,596 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:09,577 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:09,578 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:10,588 - ORDER - INFO - Training model with 1050 samples
+2025-09-25 21:09:10,588 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:09:10,588 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:10,588 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:11,590 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:09:11,590 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:11,590 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:14,579 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:14,580 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:15,598 - ORDER - INFO - Training model with 1125 samples
+2025-09-25 21:09:15,598 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:15,598 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:16,591 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:09:16,591 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:16,591 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:19,580 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:19,582 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:20,594 - ORDER - INFO - Training model with 1200 samples
+2025-09-25 21:09:20,594 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:20,594 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:21,593 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:09:22,593 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:09:23,594 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:09:24,582 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:24,583 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:24,595 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:09:24,595 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:24,595 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:25,598 - ORDER - INFO - Training model with 1275 samples
+2025-09-25 21:09:25,598 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:25,598 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:29,584 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:29,586 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:29,596 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:09:29,597 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:29,597 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:30,595 - ORDER - INFO - Training model with 1350 samples
+2025-09-25 21:09:30,595 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:30,595 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:34,586 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:34,586 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:34,598 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:09:35,589 - ORDER - INFO - Training model with 1425 samples
+2025-09-25 21:09:35,589 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:35,589 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:35,599 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:09:35,599 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:35,599 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:39,587 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:39,588 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:40,591 - ORDER - INFO - Training model with 1500 samples
+2025-09-25 21:09:40,591 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:40,591 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:40,600 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:09:41,600 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:09:42,601 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:09:42,601 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:42,602 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:44,589 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:44,589 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:45,593 - ORDER - INFO - Training model with 1575 samples
+2025-09-25 21:09:45,596 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:45,596 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:47,602 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:09:47,602 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:47,602 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:49,590 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:49,592 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:50,595 - ORDER - INFO - Training model with 1650 samples
+2025-09-25 21:09:50,595 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:50,595 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:52,603 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:09:52,603 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:52,603 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:54,593 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:54,593 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:09:55,598 - ORDER - INFO - Training model with 1725 samples
+2025-09-25 21:09:55,598 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:55,598 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:09:57,605 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:09:57,605 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:09:57,605 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:09:57,605 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:09:57,605 - ORDER - INFO - System optimization completed
+2025-09-25 21:09:59,594 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:09:59,595 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:00,610 - ORDER - INFO - Training model with 1800 samples
+2025-09-25 21:10:00,612 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:00,613 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:02,607 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:10:02,607 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:02,607 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:04,596 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:04,598 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:05,602 - ORDER - INFO - Training model with 1875 samples
+2025-09-25 21:10:05,602 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:05,602 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:07,608 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:10:07,608 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:07,608 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:09,599 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:09,599 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:10,612 - ORDER - INFO - Training model with 1950 samples
+2025-09-25 21:10:10,612 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:10,615 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:12,609 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:12,609 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:12,609 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:14,601 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:14,603 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:15,608 - ORDER - INFO - Training model with 2025 samples
+2025-09-25 21:10:15,608 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:15,608 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:17,610 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:10:17,610 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:17,610 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:19,604 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:19,604 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:20,618 - ORDER - INFO - Training model with 2100 samples
+2025-09-25 21:10:20,618 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:20,618 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:22,031 - ORDER - INFO - Initializing Self-Morphing AI Cybersecurity Engine...
+2025-09-25 21:10:22,031 - ORDER - INFO - ML models initialized successfully
+2025-09-25 21:10:22,039 - ORDER - INFO - Monitoring interfaces: ['{ED61AD5B-C597-4E23-A5E6-1A2F0DC8B3C3}', '{0F2F4862-0DAB-4D8E-B75E-A113C6D21CEE}', '{9ABEB3C2-14C3-4078-B028-4A8D3265ABEA}', '{E8BC505F-4FB4-4686-BF1D-0E8656845AE2}', '{CA03C7D1-3F7B-4952-BDD9-84C4A7BBA27B}', '{D7551071-BD8C-4A95-B745-D08C33D9CD7D}', '{B072E7CB-43EC-4102-B066-811F75278EC8}', '{283C5710-0096-11EB-BE85-806E6F6E6963}']
+2025-09-25 21:10:22,039 - ORDER - INFO - Network monitoring initialized
+2025-09-25 21:10:22,039 - ORDER - INFO - YARA rules loaded successfully
+2025-09-25 21:10:22,041 - ORDER - INFO - Threat intelligence feeds started
+2025-09-25 21:10:22,041 - ORDER - INFO - Threat intelligence initialized
+2025-09-25 21:10:22,042 - ORDER - INFO - Background processing thread started
+2025-09-25 21:10:22,042 - ORDER - INFO - ORDER Defense Engine initialized successfully
+2025-09-25 21:10:22,068 - ORDER - INFO - Intelligence tools initialized
+2025-09-25 21:10:22,069 - ORDER - INFO - Setup 3 DNS sinkholes
+2025-09-25 21:10:22,069 - ORDER - INFO - Counterattack infrastructure initialized
+2025-09-25 21:10:22,071 - ORDER - INFO - All processing threads started
+2025-09-25 21:10:22,071 - ORDER - INFO - CHAOS Offensive Engine initialized successfully
+2025-09-25 21:10:22,071 - ORDER - ERROR - Neural network initialization failed: 'neural_learning_rate'
+2025-09-25 21:10:22,072 - ORDER - INFO - Evolutionary strategy initialized
+2025-09-25 21:10:22,072 - ORDER - ERROR - Pattern recognition initialization failed: 'enable_ensemble_learning'
+2025-09-25 21:10:22,072 - ORDER - INFO - Advanced genetic population initialized with 50 individuals
+2025-09-25 21:10:22,073 - ORDER - INFO - Q-learning table initialized
+2025-09-25 21:10:22,073 - ORDER - INFO - Advanced BALANCE Controller initialized successfully
+2025-09-25 21:10:22,073 - ORDER - INFO - All components initialized successfully
+2025-09-25 21:10:22,073 - ORDER - INFO - Self-Morphing AI Cybersecurity Engine initialized - Professional Cybersecurity Platform
+2025-09-25 21:10:22,075 - ORDER - INFO - Starting Self-Morphing AI Cybersecurity Engine - Professional Cybersecurity Platform...
+2025-09-25 21:10:22,075 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:10:22,075 - ORDER - INFO - Control loop started
+2025-09-25 21:10:22,076 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:22,076 - ORDER - INFO - Simulation loop started
+2025-09-25 21:10:22,077 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:22,077 - ORDER - INFO - Engine started successfully
+2025-09-25 21:10:22,611 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:10:23,076 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:10:23,076 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:10:23,076 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:10:23,612 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:23,612 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:23,612 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:24,087 - ORDER - INFO - Engine initialized successfully
+2025-09-25 21:10:24,605 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:24,606 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:25,619 - ORDER - INFO - Training model with 2175 samples
+2025-09-25 21:10:25,619 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:25,619 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:27,078 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:27,078 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:28,077 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:28,613 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:10:29,214 - ORDER - ERROR - Failed to get system status: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:29,214 - ORDER - ERROR - Failed to get system status: 6 validation errors for SystemStatus
+system_running
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+simulation_mode
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+performance_metrics
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+order_engine
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+chaos_engine
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+balance_controller
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 21:10:29,607 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:29,607 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:29,614 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:29,615 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:29,615 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:30,613 - ORDER - INFO - Training model with 2250 samples
+2025-09-25 21:10:30,615 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:30,615 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:32,079 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:32,080 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:33,077 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:10:33,085 - ORDER - INFO - Training model with 225 samples
+2025-09-25 21:10:33,088 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:33,088 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:34,079 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:10:34,609 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:34,609 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:34,616 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:10:34,616 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:34,616 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:35,619 - ORDER - INFO - Training model with 2325 samples
+2025-09-25 21:10:35,625 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:35,625 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:37,081 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:37,081 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:38,095 - ORDER - INFO - Training model with 300 samples
+2025-09-25 21:10:38,095 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:38,095 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:39,083 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:10:39,610 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:39,610 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:39,617 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:39,617 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:39,617 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:40,087 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:40,625 - ORDER - INFO - Training model with 2400 samples
+2025-09-25 21:10:40,628 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:40,628 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:42,083 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:42,083 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:43,087 - ORDER - INFO - Training model with 375 samples
+2025-09-25 21:10:43,087 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:43,087 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:44,612 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:44,612 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:44,618 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:10:45,088 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:10:45,619 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:10:45,624 - ORDER - INFO - Training model with 2475 samples
+2025-09-25 21:10:45,629 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:45,630 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:46,089 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:10:46,620 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:10:46,620 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:46,620 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:47,084 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:47,084 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:48,093 - ORDER - INFO - Training model with 450 samples
+2025-09-25 21:10:48,093 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:48,093 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:49,614 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:49,614 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:50,620 - ORDER - INFO - Training model with 2550 samples
+2025-09-25 21:10:50,626 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:50,626 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:51,090 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:10:51,622 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:10:51,622 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:10:51,622 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:10:51,622 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:51,622 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:52,086 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:52,086 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:53,088 - ORDER - INFO - Training model with 525 samples
+2025-09-25 21:10:53,088 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:53,088 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:54,616 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:54,616 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:55,623 - ORDER - INFO - Training model with 2625 samples
+2025-09-25 21:10:55,624 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:55,624 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:56,090 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:10:56,623 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:10:56,623 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:10:56,623 - ORDER - INFO - System optimization completed
+2025-09-25 21:10:57,087 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:57,087 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:10:58,088 - ORDER - INFO - Training model with 600 samples
+2025-09-25 21:10:58,088 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:58,088 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:10:59,618 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:10:59,618 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:00,628 - ORDER - INFO - Training model with 2700 samples
+2025-09-25 21:11:00,628 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:00,628 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:01,091 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:11:01,625 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:11:01,625 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:01,625 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:02,089 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:02,090 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:02,092 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:03,093 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:03,107 - ORDER - INFO - Training model with 675 samples
+2025-09-25 21:11:03,108 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:03,109 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:04,093 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:04,619 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:04,619 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:05,628 - ORDER - INFO - Training model with 2775 samples
+2025-09-25 21:11:05,628 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:05,628 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:06,626 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:06,626 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:06,626 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:07,091 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:07,092 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:08,097 - ORDER - INFO - Training model with 750 samples
+2025-09-25 21:11:08,097 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:08,097 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:09,094 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:09,621 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:09,621 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:10,633 - ORDER - INFO - Training model with 2850 samples
+2025-09-25 21:11:10,637 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:10,637 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:11,628 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:11:11,628 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:11,628 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:12,093 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:12,093 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:13,110 - ORDER - INFO - Training model with 825 samples
+2025-09-25 21:11:13,110 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:13,110 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:14,095 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:11:14,622 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:14,622 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:15,630 - ORDER - INFO - Training model with 2925 samples
+2025-09-25 21:11:15,630 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:15,630 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:16,630 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:11:16,630 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:16,630 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:17,094 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:17,095 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:18,113 - ORDER - INFO - Training model with 900 samples
+2025-09-25 21:11:18,114 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:18,115 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:19,095 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:19,624 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:19,624 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:20,096 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:20,097 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:11:20,097 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:11:20,097 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:20,097 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:20,636 - ORDER - INFO - Training model with 3000 samples
+2025-09-25 21:11:20,636 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:20,636 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:21,631 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:22,096 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:22,096 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:22,632 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:11:23,100 - ORDER - INFO - Training model with 975 samples
+2025-09-25 21:11:23,100 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:23,100 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:23,633 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:11:23,633 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:23,633 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:24,625 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:24,625 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:25,098 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:11:25,098 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:25,098 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:25,632 - ORDER - INFO - Training model with 3075 samples
+2025-09-25 21:11:25,636 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:25,636 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:27,098 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:27,100 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:28,115 - ORDER - INFO - Training model with 1050 samples
+2025-09-25 21:11:28,115 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:28,115 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:28,634 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:29,627 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:29,627 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:29,635 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:11:29,635 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:29,635 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:30,099 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:11:30,638 - ORDER - INFO - Training model with 3150 samples
+2025-09-25 21:11:30,638 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:30,638 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:31,100 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:11:31,100 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:31,101 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:32,100 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:32,100 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:33,117 - ORDER - INFO - Training model with 1125 samples
+2025-09-25 21:11:33,117 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:33,117 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:34,629 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:34,629 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:34,636 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:11:35,637 - ORDER - INFO - Training model with 3225 samples
+2025-09-25 21:11:35,637 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:11:35,640 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:35,640 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:35,640 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:35,640 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:36,102 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:36,102 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:36,103 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:37,102 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:37,102 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:38,108 - ORDER - INFO - Training model with 1200 samples
+2025-09-25 21:11:38,108 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:38,108 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:39,631 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:39,631 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:40,641 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:11:40,642 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:40,642 - ORDER - INFO - Training model with 3300 samples
+2025-09-25 21:11:40,642 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:40,647 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:40,647 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:41,104 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:41,104 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:41,104 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:42,104 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:42,104 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:43,112 - ORDER - INFO - Training model with 1275 samples
+2025-09-25 21:11:43,114 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:43,114 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:44,633 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:44,633 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:45,646 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:45,646 - ORDER - INFO - Training model with 3375 samples
+2025-09-25 21:11:45,646 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:11:45,647 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:11:45,647 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:45,648 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:45,649 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:45,649 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:46,105 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:46,105 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:46,105 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:47,105 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:47,105 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:48,109 - ORDER - INFO - Training model with 1350 samples
+2025-09-25 21:11:48,110 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:48,110 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:49,635 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:49,635 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:50,650 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:11:50,651 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:50,651 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:50,651 - ORDER - INFO - Training model with 3450 samples
+2025-09-25 21:11:50,651 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:50,651 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:51,107 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:11:51,107 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:51,107 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:52,107 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:52,108 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:53,110 - ORDER - INFO - Training model with 1425 samples
+2025-09-25 21:11:53,110 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:53,110 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:54,637 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:54,637 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:55,653 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:11:55,653 - ORDER - INFO - Training model with 3525 samples
+2025-09-25 21:11:55,653 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:55,653 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:56,107 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:11:56,107 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:56,107 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:56,655 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:11:56,655 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:11:56,655 - ORDER - INFO - System optimization completed
+2025-09-25 21:11:57,108 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:57,109 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:11:58,119 - ORDER - INFO - Training model with 1500 samples
+2025-09-25 21:11:58,119 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:58,119 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:11:59,638 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:11:59,638 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:00,640 - ORDER - INFO - Training model with 3600 samples
+2025-09-25 21:12:00,640 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:00,640 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:01,108 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:12:01,656 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:12:01,656 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:01,656 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:02,109 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:02,109 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:02,109 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:02,110 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:02,110 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:03,128 - ORDER - INFO - Training model with 1575 samples
+2025-09-25 21:12:03,130 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:03,130 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:04,640 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:04,640 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:05,645 - ORDER - INFO - Training model with 3675 samples
+2025-09-25 21:12:05,645 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:05,645 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:06,658 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:12:06,658 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:06,658 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:07,110 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:07,110 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:07,110 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:07,112 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:07,112 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:08,116 - ORDER - INFO - Training model with 1650 samples
+2025-09-25 21:12:08,118 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:08,118 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:09,641 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:09,642 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:10,648 - ORDER - INFO - Training model with 3750 samples
+2025-09-25 21:12:10,648 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:10,648 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:11,659 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:12:12,112 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:12:12,113 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:12,113 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:12,660 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:12,660 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:12,660 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:13,112 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:13,112 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:12:13,112 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:12:13,112 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:13,114 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:13,119 - ORDER - INFO - Training model with 1725 samples
+2025-09-25 21:12:13,121 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:13,121 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:14,643 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:14,643 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:15,655 - ORDER - INFO - Training model with 3825 samples
+2025-09-25 21:12:15,655 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:15,655 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:17,114 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:17,114 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:17,661 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:12:17,661 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:17,661 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:18,114 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:18,114 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:18,114 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:18,127 - ORDER - INFO - Training model with 1800 samples
+2025-09-25 21:12:18,129 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:18,129 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:19,644 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:19,644 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:20,652 - ORDER - INFO - Training model with 3900 samples
+2025-09-25 21:12:20,654 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:20,654 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:22,117 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:22,118 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:22,662 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:22,662 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:22,662 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:23,115 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:12:23,115 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:23,115 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:23,120 - ORDER - INFO - Training model with 1875 samples
+2025-09-25 21:12:23,124 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:23,124 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:24,646 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:24,647 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:25,654 - ORDER - INFO - Training model with 3975 samples
+2025-09-25 21:12:25,659 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:25,660 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:27,118 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:27,118 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:27,663 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:27,663 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:27,663 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:28,117 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:28,117 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:28,117 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:28,125 - ORDER - INFO - Training model with 1950 samples
+2025-09-25 21:12:28,127 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:28,127 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:29,647 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:29,647 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:30,653 - ORDER - INFO - Training model with 4050 samples
+2025-09-25 21:12:30,655 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:30,655 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:32,120 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:32,120 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:32,664 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:32,664 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:32,664 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:33,118 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:33,118 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:33,118 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:33,127 - ORDER - INFO - Training model with 2025 samples
+2025-09-25 21:12:33,129 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:33,129 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:34,649 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:34,649 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:35,652 - ORDER - INFO - Training model with 4125 samples
+2025-09-25 21:12:35,652 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:35,652 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:37,121 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:37,121 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:37,666 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:37,666 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:12:37,666 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:12:37,666 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:37,666 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:38,119 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:38,119 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:38,119 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:38,131 - ORDER - INFO - Training model with 2100 samples
+2025-09-25 21:12:38,134 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:38,134 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:39,650 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:39,650 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:40,655 - ORDER - INFO - Training model with 4200 samples
+2025-09-25 21:12:40,659 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:40,659 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:42,123 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:42,123 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:42,667 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:42,667 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:42,667 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:43,120 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:12:43,120 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:43,120 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:43,132 - ORDER - INFO - Training model with 2175 samples
+2025-09-25 21:12:43,134 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:43,135 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:44,652 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:44,653 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:45,660 - ORDER - INFO - Training model with 4275 samples
+2025-09-25 21:12:45,660 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:45,660 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:47,124 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:47,124 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:47,669 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:47,669 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:47,669 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:48,121 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:12:48,139 - ORDER - INFO - Training model with 2250 samples
+2025-09-25 21:12:48,142 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:48,142 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:49,122 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:12:49,122 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:49,122 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:49,654 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:49,655 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:50,665 - ORDER - INFO - Training model with 4350 samples
+2025-09-25 21:12:50,668 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:50,668 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:52,125 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:52,125 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:52,669 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:12:52,669 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:52,669 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:53,134 - ORDER - INFO - Training model with 2325 samples
+2025-09-25 21:12:53,136 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:53,136 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:54,123 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:12:54,123 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:54,123 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:54,656 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:54,656 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:55,665 - ORDER - INFO - Training model with 4425 samples
+2025-09-25 21:12:55,669 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:55,670 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:57,127 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:57,127 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:12:57,670 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:12:57,670 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:12:57,670 - ORDER - INFO - System optimization completed
+2025-09-25 21:12:58,134 - ORDER - INFO - Training model with 2400 samples
+2025-09-25 21:12:58,136 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:58,138 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:12:59,124 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:12:59,658 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:12:59,658 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:00,125 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:00,125 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:00,125 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:00,668 - ORDER - INFO - Training model with 4500 samples
+2025-09-25 21:13:00,673 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:00,673 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:02,129 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:02,129 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:02,672 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:02,672 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:02,672 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:03,137 - ORDER - INFO - Training model with 2475 samples
+2025-09-25 21:13:03,142 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:03,142 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:04,659 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:04,659 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:05,126 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:05,126 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:13:05,126 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:13:05,126 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:05,126 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:05,672 - ORDER - INFO - Training model with 4575 samples
+2025-09-25 21:13:05,672 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:05,672 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:07,130 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:07,130 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:07,673 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:13:08,135 - ORDER - INFO - Training model with 2550 samples
+2025-09-25 21:13:08,135 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:08,135 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:08,674 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:08,674 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:08,674 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:09,661 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:09,661 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:10,128 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:10,128 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:10,128 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:10,665 - ORDER - INFO - Training model with 4650 samples
+2025-09-25 21:13:10,668 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:10,668 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:12,132 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:12,133 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:13,140 - ORDER - INFO - Training model with 2625 samples
+2025-09-25 21:13:13,141 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:13,141 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:13,675 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:13,675 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:13,675 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:14,662 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:14,663 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:15,129 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:15,130 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:15,130 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:15,676 - ORDER - INFO - Training model with 4725 samples
+2025-09-25 21:13:15,681 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:15,681 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:17,133 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:17,133 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:17,642 - ORDER - ERROR - Failed to get system status: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:17,643 - ORDER - ERROR - Failed to get system status: 6 validation errors for SystemStatus
+system_running
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+simulation_mode
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+performance_metrics
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+order_engine
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+chaos_engine
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+balance_controller
+  Field required [type=missing, input_value={'error': "'OrderEngine' ...ute 'mutation_counter'"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 21:13:18,141 - ORDER - INFO - Training model with 2700 samples
+2025-09-25 21:13:18,144 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:18,144 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:18,676 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:18,676 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:18,676 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:19,664 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:19,664 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:20,130 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:20,130 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:20,130 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:20,671 - ORDER - INFO - Training model with 4800 samples
+2025-09-25 21:13:20,671 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:20,671 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:22,135 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:22,135 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:23,142 - ORDER - INFO - Training model with 2775 samples
+2025-09-25 21:13:23,144 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:23,145 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:23,678 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:13:24,666 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:24,666 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:24,679 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:13:24,679 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:24,679 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:25,131 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:13:25,683 - ORDER - INFO - Training model with 4875 samples
+2025-09-25 21:13:25,695 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:25,698 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:26,132 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:26,137 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:26,144 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:27,137 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:27,139 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:28,142 - ORDER - INFO - Training model with 2850 samples
+2025-09-25 21:13:28,148 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:28,148 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:29,668 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:29,668 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:29,680 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:29,680 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:13:29,682 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:13:29,682 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:29,682 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:30,680 - ORDER - INFO - Training model with 4950 samples
+2025-09-25 21:13:30,680 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:30,680 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:31,154 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:31,154 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:31,154 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:32,140 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:32,140 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:33,150 - ORDER - INFO - Training model with 2925 samples
+2025-09-25 21:13:33,150 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:33,150 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:34,669 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:34,669 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:34,683 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:34,683 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:34,683 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:35,677 - ORDER - INFO - Training model with 5025 samples
+2025-09-25 21:13:35,677 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:35,677 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:36,155 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:36,155 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:36,155 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:37,142 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:37,142 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:38,152 - ORDER - INFO - Training model with 3000 samples
+2025-09-25 21:13:38,154 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:38,154 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:39,671 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:39,671 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:39,684 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:39,684 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:39,684 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:40,678 - ORDER - INFO - Training model with 5100 samples
+2025-09-25 21:13:40,683 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:40,683 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:41,156 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:13:42,143 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:42,143 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:42,158 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:42,158 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:42,158 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:43,153 - ORDER - INFO - Training model with 3075 samples
+2025-09-25 21:13:43,156 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:43,156 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:44,673 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:44,673 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:44,685 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:13:44,685 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:44,685 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:45,687 - ORDER - INFO - Training model with 5175 samples
+2025-09-25 21:13:45,687 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:45,687 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:47,145 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:47,145 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:47,159 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:47,159 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:47,159 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:48,148 - ORDER - INFO - Training model with 3150 samples
+2025-09-25 21:13:48,148 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:48,148 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:49,675 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:49,675 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:49,686 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:13:49,686 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:49,686 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:50,686 - ORDER - INFO - Training model with 5250 samples
+2025-09-25 21:13:50,689 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:50,690 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:52,148 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:52,155 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:52,164 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:13:53,171 - ORDER - INFO - Training model with 3225 samples
+2025-09-25 21:13:53,176 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:53,178 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:53,178 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:53,178 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:53,178 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:54,679 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:54,679 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:54,686 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:13:54,686 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:54,686 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:55,690 - ORDER - INFO - Training model with 5325 samples
+2025-09-25 21:13:55,693 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:55,693 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:57,157 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:57,157 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:58,173 - ORDER - INFO - Training model with 3300 samples
+2025-09-25 21:13:58,173 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:58,173 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:13:58,179 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:13:58,179 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:13:58,179 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:13:58,179 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:58,179 - ORDER - INFO - System optimization completed
+2025-09-25 21:13:59,680 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:13:59,680 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:13:59,688 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:13:59,688 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:13:59,688 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:00,693 - ORDER - INFO - Training model with 5400 samples
+2025-09-25 21:14:00,698 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:00,698 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:02,158 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:02,158 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:03,174 - ORDER - INFO - Training model with 3375 samples
+2025-09-25 21:14:03,179 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:03,179 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:03,180 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:03,180 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:03,180 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:04,682 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:04,682 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:04,689 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:14:05,689 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:05,689 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:05,689 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:05,694 - ORDER - INFO - Training model with 5475 samples
+2025-09-25 21:14:05,702 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:05,702 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:07,160 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:07,160 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:08,178 - ORDER - INFO - Training model with 3450 samples
+2025-09-25 21:14:08,181 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:08,181 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:08,181 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:08,181 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:08,181 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:09,684 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:09,684 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:10,690 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:14:10,690 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:10,690 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:10,698 - ORDER - INFO - Training model with 5550 samples
+2025-09-25 21:14:10,698 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:10,698 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:12,162 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:12,162 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:13,176 - ORDER - INFO - Training model with 3525 samples
+2025-09-25 21:14:13,176 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:13,176 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:13,182 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:14:13,182 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:13,182 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:14,685 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:14,685 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:15,691 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:14:15,696 - ORDER - INFO - Training model with 5625 samples
+2025-09-25 21:14:15,696 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:15,696 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:16,691 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:16,691 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:16,691 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:17,163 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:17,164 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:18,167 - ORDER - INFO - Training model with 3600 samples
+2025-09-25 21:14:18,167 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:18,167 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:18,183 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:18,183 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:18,183 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:19,687 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:19,687 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:20,688 - ORDER - INFO - Training model with 5700 samples
+2025-09-25 21:14:20,698 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:20,698 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:21,693 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:21,693 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:14:21,693 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:14:21,693 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:21,694 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:22,165 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:22,165 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:23,180 - ORDER - INFO - Training model with 3675 samples
+2025-09-25 21:14:23,183 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:23,183 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:23,184 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:23,184 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:23,184 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:24,688 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:24,688 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:25,695 - ORDER - INFO - Training model with 5775 samples
+2025-09-25 21:14:25,699 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:25,699 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:26,694 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:14:27,167 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:27,167 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:27,695 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:27,695 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:27,695 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:28,179 - ORDER - INFO - Training model with 3750 samples
+2025-09-25 21:14:28,179 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:28,185 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:28,185 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:14:29,186 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:29,186 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:29,186 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:29,689 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:29,689 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:30,697 - ORDER - INFO - Training model with 5850 samples
+2025-09-25 21:14:30,703 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:30,703 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:32,168 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:32,168 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:32,696 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:14:33,182 - ORDER - INFO - Training model with 3825 samples
+2025-09-25 21:14:33,186 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:33,186 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:33,697 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:14:34,187 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:34,187 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:34,187 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:34,691 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:34,692 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:34,698 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:34,698 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:34,699 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:35,699 - ORDER - INFO - Training model with 5925 samples
+2025-09-25 21:14:35,699 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:35,699 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:37,170 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:37,170 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:38,178 - ORDER - INFO - Training model with 3900 samples
+2025-09-25 21:14:38,178 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:38,178 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:39,188 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:39,188 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:39,188 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:39,693 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:39,693 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:39,699 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:14:39,699 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:39,699 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:40,696 - ORDER - INFO - Training model with 6000 samples
+2025-09-25 21:14:40,699 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:40,701 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:42,171 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:42,172 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:43,177 - ORDER - INFO - Training model with 3975 samples
+2025-09-25 21:14:43,177 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:43,177 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:44,189 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:44,189 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:44,189 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:44,694 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:44,694 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:44,700 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:14:45,701 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:45,701 - ORDER - INFO - Training model with 6075 samples
+2025-09-25 21:14:45,701 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:45,701 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:45,701 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:45,701 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:47,173 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:47,174 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:48,181 - ORDER - INFO - Training model with 4050 samples
+2025-09-25 21:14:48,181 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:48,181 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:49,190 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:14:49,190 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:14:49,190 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:14:49,190 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:49,190 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:49,696 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:49,696 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:50,701 - ORDER - INFO - Training model with 6150 samples
+2025-09-25 21:14:50,703 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:50,703 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:50,706 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:50,706 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:50,706 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:52,175 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:52,176 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:53,184 - ORDER - INFO - Training model with 4125 samples
+2025-09-25 21:14:53,184 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:53,184 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:54,192 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:54,192 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:54,192 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:54,698 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:54,698 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:55,699 - ORDER - INFO - Training model with 6225 samples
+2025-09-25 21:14:55,699 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:55,699 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:55,707 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:14:56,708 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:14:56,708 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:56,708 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:57,177 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:57,177 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:14:58,185 - ORDER - INFO - Training model with 4200 samples
+2025-09-25 21:14:58,185 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:58,185 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:14:59,194 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:14:59,194 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:14:59,194 - ORDER - INFO - System optimization completed
+2025-09-25 21:14:59,700 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:14:59,700 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:00,701 - ORDER - INFO - Training model with 6300 samples
+2025-09-25 21:15:00,701 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:00,701 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:01,709 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:01,709 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:01,709 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:02,179 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:02,179 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:03,190 - ORDER - INFO - Training model with 4275 samples
+2025-09-25 21:15:03,190 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:03,190 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:04,195 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:04,195 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:04,195 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:04,702 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:04,702 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:05,718 - ORDER - INFO - Training model with 6375 samples
+2025-09-25 21:15:05,718 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:05,718 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:06,710 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:06,710 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:06,710 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:07,181 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:07,181 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:08,187 - ORDER - INFO - Training model with 4350 samples
+2025-09-25 21:15:08,187 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:08,187 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:09,197 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:15:09,197 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:09,197 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:09,704 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:09,705 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:10,713 - ORDER - INFO - Training model with 6450 samples
+2025-09-25 21:15:10,713 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:10,713 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:11,712 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:11,712 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:11,712 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:12,183 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:12,183 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:13,192 - ORDER - INFO - Training model with 4425 samples
+2025-09-25 21:15:13,197 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:13,197 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:14,198 - ORDER - ERROR - Error in control loop: 'attack_evolution_rate'
+2025-09-25 21:15:14,705 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:14,706 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:15,199 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:15:15,199 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:15,199 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:15,710 - ORDER - INFO - Training model with 6525 samples
+2025-09-25 21:15:15,716 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:15,716 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:16,713 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:15:16,713 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:15:16,713 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:15:16,713 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:16,714 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:17,185 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:17,186 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:18,191 - ORDER - INFO - Training model with 4500 samples
+2025-09-25 21:15:18,191 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:18,191 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:19,707 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:19,708 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:20,200 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:20,200 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:20,200 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:20,716 - ORDER - INFO - Training model with 6600 samples
+2025-09-25 21:15:20,716 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:20,716 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:21,714 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:15:22,186 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:22,186 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:22,715 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:22,715 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:22,715 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:23,189 - ORDER - INFO - Training model with 4575 samples
+2025-09-25 21:15:23,189 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:23,189 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:24,709 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:24,710 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:25,201 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:25,201 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:25,201 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:25,723 - ORDER - INFO - Training model with 6675 samples
+2025-09-25 21:15:25,723 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:25,723 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:27,188 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:27,188 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:27,716 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:27,716 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:27,716 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:28,195 - ORDER - INFO - Training model with 4650 samples
+2025-09-25 21:15:28,195 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:28,195 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:29,711 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:29,712 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:30,202 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:30,202 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:30,202 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:30,715 - ORDER - INFO - Training model with 6750 samples
+2025-09-25 21:15:30,715 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:30,715 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:32,189 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:32,189 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:32,717 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:32,717 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:32,717 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:33,199 - ORDER - INFO - Training model with 4725 samples
+2025-09-25 21:15:33,199 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:33,199 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:34,713 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:34,714 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:35,210 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:15:35,214 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:35,214 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:35,715 - ORDER - INFO - Training model with 6825 samples
+2025-09-25 21:15:35,719 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:35,719 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:37,191 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:37,191 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:37,719 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:37,719 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:37,719 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:38,199 - ORDER - INFO - Training model with 4800 samples
+2025-09-25 21:15:38,199 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:38,199 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:39,715 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:39,715 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:40,215 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:15:40,215 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:15:40,215 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:15:40,215 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:40,215 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:40,717 - ORDER - INFO - Training model with 6900 samples
+2025-09-25 21:15:40,723 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:40,723 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:42,193 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:42,193 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:42,720 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:15:42,720 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:42,720 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:43,207 - ORDER - INFO - Training model with 4875 samples
+2025-09-25 21:15:43,207 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:43,207 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:44,720 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:44,721 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:45,216 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:45,216 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:45,216 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:45,727 - ORDER - INFO - Training model with 6975 samples
+2025-09-25 21:15:45,731 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:45,731 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:47,195 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:47,197 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:47,721 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:47,721 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:47,721 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:48,208 - ORDER - INFO - Training model with 4950 samples
+2025-09-25 21:15:48,209 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:48,209 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:49,722 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:49,723 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:50,217 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:50,217 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:50,217 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:50,729 - ORDER - INFO - Training model with 7050 samples
+2025-09-25 21:15:50,739 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:50,739 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:52,198 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:52,199 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:52,722 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:15:53,216 - ORDER - INFO - Training model with 5025 samples
+2025-09-25 21:15:53,221 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:53,221 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:53,723 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:53,723 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:53,723 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:54,725 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:54,725 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:55,218 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:15:55,218 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:55,218 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:55,743 - ORDER - INFO - Training model with 7125 samples
+2025-09-25 21:15:55,745 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:55,745 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:57,200 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:57,200 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:15:58,211 - ORDER - INFO - Training model with 5100 samples
+2025-09-25 21:15:58,211 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:58,211 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:15:58,724 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:15:58,724 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:15:58,724 - ORDER - INFO - System optimization completed
+2025-09-25 21:15:59,728 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:15:59,732 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:00,219 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:00,219 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:00,219 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:00,745 - ORDER - INFO - Training model with 7200 samples
+2025-09-25 21:16:00,747 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:00,747 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:02,202 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:02,202 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:03,204 - ORDER - INFO - Training model with 5175 samples
+2025-09-25 21:16:03,217 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:03,218 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:03,725 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:03,725 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:03,725 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:04,734 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:04,736 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:05,222 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:05,224 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:05,229 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:05,741 - ORDER - INFO - Training model with 7275 samples
+2025-09-25 21:16:05,756 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:05,756 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:07,204 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:07,204 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:08,221 - ORDER - INFO - Training model with 5250 samples
+2025-09-25 21:16:08,225 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:08,225 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:08,727 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:16:09,728 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:16:09,728 - ORDER - INFO - Evolving genetic population
+2025-09-25 21:16:09,728 - ORDER - ERROR - Population evolution failed: 'defense_adaptation_rate'
+2025-09-25 21:16:09,730 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:09,730 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:09,738 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:09,740 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:10,239 - ORDER - ERROR - Error in control loop: 'balance_sensitivity'
+2025-09-25 21:16:10,754 - ORDER - INFO - Training model with 7350 samples
+2025-09-25 21:16:10,764 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:10,764 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:11,244 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:11,244 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:11,244 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:12,208 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:12,209 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:13,224 - ORDER - INFO - Training model with 5325 samples
+2025-09-25 21:16:13,236 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:13,236 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:14,730 - ORDER - INFO - Executing action: Reset System
+2025-09-25 21:16:14,730 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:14,731 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:14,741 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:14,742 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:15,754 - ORDER - INFO - Training model with 7425 samples
+2025-09-25 21:16:15,754 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:15,754 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:16,245 - ORDER - ERROR - Error in control loop: 'defense_adaptation_rate'
+2025-09-25 21:16:17,210 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:17,211 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:17,246 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:17,246 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:17,246 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:18,230 - ORDER - INFO - Training model with 5400 samples
+2025-09-25 21:16:18,240 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:18,240 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:19,732 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:16:19,732 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:19,732 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:19,743 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:19,743 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:20,757 - ORDER - INFO - Training model with 7500 samples
+2025-09-25 21:16:20,757 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:20,757 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:22,213 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:22,213 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:22,247 - ORDER - INFO - Executing action: Genetic Evolution
+2025-09-25 21:16:22,247 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:22,247 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:23,222 - ORDER - INFO - Training model with 5475 samples
+2025-09-25 21:16:23,222 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:23,222 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:24,733 - ORDER - INFO - Executing action: Optimize Performance
+2025-09-25 21:16:24,733 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:24,733 - ORDER - INFO - System optimization completed
+2025-09-25 21:16:24,745 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:24,745 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:25,760 - ORDER - INFO - Training model with 7575 samples
+2025-09-25 21:16:25,774 - ORDER - ERROR - Model training failed: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:25,774 - ORDER - ERROR - Error processing batch: 'OrderEngine' object has no attribute 'model'
+2025-09-25 21:16:27,214 - ORDER - INFO - Starting batch simulation
+2025-09-25 21:16:27,214 - ORDER - ERROR - Batch simulation failed: 'OrderEngine' object has no attribute 'mutation_counter'
+2025-09-25 21:16:27,248 - ORDER - INFO - Executing action: Adaptive Learning
+2025-09-25 21:16:27,248 - ORDER - INFO - Initiating system optimization
+2025-09-25 21:16:27,249 - ORDER - INFO - System optimization completed
