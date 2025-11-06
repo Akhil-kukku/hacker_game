@@ -481,20 +481,24 @@ class SelfMorphingAICybersecurityEngine:
                         if is_attack and not was_detected:
                             # FALSE NEGATIVE: Attack succeeded but wasn't detected
                             self.order_engine.submit_feedback(actual_flow, is_attack=True)
-                            self.performance_metrics['false_negatives'] += 1
+                            if 'false_negatives' in self.performance_metrics:
+                                self.performance_metrics['false_negatives'] += 1
                             logging.info(f"Feedback: False negative on flow {target_flow_id} (attack {attack_id})")
                         elif is_attack and was_detected:
                             # TRUE POSITIVE: Attack detected correctly
-                            self.performance_metrics['true_positives'] += 1
+                            if 'true_positives' in self.performance_metrics:
+                                self.performance_metrics['true_positives'] += 1
                             logging.debug(f"True positive: Attack {attack_id} detected")
                         elif not is_attack and was_detected:
                             # FALSE POSITIVE: Normal flow flagged as attack
                             self.order_engine.submit_feedback(actual_flow, is_attack=False)
-                            self.performance_metrics['false_positives'] += 1
+                            if 'false_positives' in self.performance_metrics:
+                                self.performance_metrics['false_positives'] += 1
                             logging.info(f"Feedback: False positive on flow {target_flow_id}")
                         else:
                             # TRUE NEGATIVE: Normal flow passed correctly
-                            self.performance_metrics['true_negatives'] += 1
+                            if 'true_negatives' in self.performance_metrics:
+                                self.performance_metrics['true_negatives'] += 1
                 
             except Exception as e:
                 logging.error(f"Attack processing failed: {e}")
