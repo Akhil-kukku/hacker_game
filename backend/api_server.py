@@ -103,6 +103,40 @@ async def startup_event():
         logger.info("Initializing Self-Morphing AI Cybersecurity Engine...")
         engine = SelfMorphingAICybersecurityEngine()
         
+        # NEW: Check for training datasets and train ORDER engine
+        import os
+        dataset_candidates = [
+            "CSV Files/training_data.csv",
+            "../CSV Files/training_data.csv",
+            "CSV Files/UNSW_NB15_1.csv",
+            "../CSV Files/UNSW_NB15_1.csv",
+            "CSV Files/CICIDS2017_sample.csv"
+        ]
+        
+        dataset_found = False
+        for dataset_path in dataset_candidates:
+            if os.path.exists(dataset_path):
+                logger.info(f"🎓 Found training dataset: {dataset_path}")
+                try:
+                    # Train ORDER engine with labeled data
+                    logger.info("Training ORDER engine on real dataset...")
+                    engine.order_engine.train_from_dataset(
+                        dataset_path, 
+                        label_column='label'  # 0=normal, 1=attack
+                    )
+                    logger.info("✅ ORDER engine trained successfully on real data!")
+                    logger.info(f"Model status: {engine.order_engine.get_status()}")
+                    dataset_found = True
+                    break
+                except Exception as e:
+                    logger.warning(f"⚠️ Training failed on {dataset_path}: {e}")
+                    logger.info("Trying next dataset...")
+        
+        if not dataset_found:
+            logger.warning("⚠️ No training datasets found - ORDER will use online learning only")
+            logger.info("To add training data, place CSV files in 'CSV Files/' directory")
+            logger.info("Expected columns: src_ip, dst_ip, src_port, dst_port, protocol, packet_count, byte_count, duration, flags, label")
+        
         # Start engine in background thread
         def run_engine():
             try:

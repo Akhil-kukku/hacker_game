@@ -49,6 +49,12 @@ class SelfMorphingAICybersecurityEngine:
         self.batch_simulations = []
         self.attack_response_tracking = []
         
+        # NEW: Flow and attack correlation tracking
+        self.flow_cache = {}  # flow_id -> NetworkFlow object
+        self.flow_attack_map = {}  # flow_id -> attack_id mapping
+        self.attack_target_map = {}  # attack_id -> [flow_ids] that were targeted
+        self.detected_anomalies = set()  # Set of flow_ids detected as anomalies
+        
         # Performance tracking
         self.performance_metrics = {
             'total_simulations': 0,
@@ -56,7 +62,11 @@ class SelfMorphingAICybersecurityEngine:
             'successful_attacks': 0,
             'system_balance_score': 0.0,
             'last_simulation': None,
-            'total_runtime': 0.0
+            'total_runtime': 0.0,
+            'true_positives': 0,  # Attacks correctly detected
+            'false_negatives': 0,  # Attacks missed
+            'false_positives': 0,  # Normal traffic flagged as attack
+            'true_negatives': 0   # Normal traffic correctly passed
         }
         # Feedback toggles
         self.enable_online_feedback = True
@@ -284,7 +294,7 @@ class SelfMorphingAICybersecurityEngine:
             logging.error(f"Batch simulation failed: {e}")
     
     def _generate_simulated_flows(self) -> List[NetworkFlow]:
-        """Generate simulated network flows"""
+        """Generate simulated network flows and cache them for correlation"""
         flows = []
         
         # Generate normal traffic
@@ -302,8 +312,10 @@ class SelfMorphingAICybersecurityEngine:
                 flags=random.choice(['', 'SYN', 'ACK', 'FIN', 'RST'])
             )
             flows.append(flow)
+            # Cache flow for later correlation
+            self.flow_cache[flow.flow_id] = flow
         
-        # Generate some anomalous traffic
+        # Generate some anomalous traffic (these will be targets for attacks)
         for _ in range(self.config['batch_size'] // 4):
             flow = NetworkFlow(
                 src_ip=f"203.0.{random.randint(1, 254)}.{random.randint(1, 254)}",
@@ -318,52 +330,102 @@ class SelfMorphingAICybersecurityEngine:
                 flags='SYN'
             )
             flows.append(flow)
+            # Cache flow for later correlation
+            self.flow_cache[flow.flow_id] = flow
+        
+        # Keep cache size bounded
+        if len(self.flow_cache) > 10000:
+            # Keep only most recent 5000
+            recent_ids = list(self.flow_cache.keys())[-5000:]
+            self.flow_cache = {k: v for k, v in self.flow_cache.items() if k in recent_ids}
         
         return flows
     
     def _generate_simulated_attacks(self) -> List[Dict[str, Any]]:
-        """Generate simulated attacks"""
+        """Generate simulated attacks linked to specific flows"""
         attacks = []
         
         attack_types = list(AttackType)
         
+        # Get recent flows from cache that could be attack targets
+        # Target the anomalous flows (external IPs attacking internal systems)
+        potential_targets = [
+            flow for flow in self.flow_cache.values()
+            if flow.src_ip.startswith('203.0.') and flow.dst_ip.startswith('10.0.')
+        ]
+        
+        # If no targets available, use any cached flows
+        if not potential_targets and self.flow_cache:
+            potential_targets = list(self.flow_cache.values())[-20:]  # Last 20 flows
+        
         for _ in range(self.config['batch_size'] // 10):
-            attack = {
-                'attack_type': random.choice(attack_types),
-                'target_ip': f"10.0.{random.randint(1, 254)}.{random.randint(1, 254)}",
-                'target_port': random.choice([80, 443, 22, 53, 25, 3389, 1433, 3306]),
-                'intensity': random.uniform(0.1, 1.0),
-                'stealth_level': random.randint(1, 10)
-            }
+            # Select target flow if available
+            target_flow = random.choice(potential_targets) if potential_targets else None
+            
+            if target_flow:
+                # Create attack targeting this specific flow
+                attack = {
+                    'attack_type': random.choice(attack_types),
+                    'target_ip': target_flow.dst_ip,
+                    'target_port': target_flow.dst_port,
+                    'intensity': random.uniform(0.1, 1.0),
+                    'stealth_level': random.randint(1, 10),
+                    'target_flow_id': target_flow.flow_id  # Link attack to flow
+                }
+            else:
+                # Fallback to random target
+                attack = {
+                    'attack_type': random.choice(attack_types),
+                    'target_ip': f"10.0.{random.randint(1, 254)}.{random.randint(1, 254)}",
+                    'target_port': random.choice([80, 443, 22, 53, 25, 3389, 1433, 3306]),
+                    'intensity': random.uniform(0.1, 1.0),
+                    'stealth_level': random.randint(1, 10),
+                    'target_flow_id': None
+                }
+            
             attacks.append(attack)
         
         return attacks
     
     def _process_flows_through_order(self, flows: List[NetworkFlow]) -> Dict[str, Any]:
-        """Process flows through ORDER engine"""
+        """Process flows through ORDER engine and track detections"""
         results = {
             'total_flows': len(flows),
             'anomalies_detected': 0,
             'false_positives': 0,
             'true_positives': 0,
             'processing_time': 0.0,
-            'signatures_generated': 0
+            'signatures_generated': 0,
+            'detected_flow_ids': []  # Track which flows were flagged
         }
         
         start_time = time.time()
+        
+        # Clear previous batch's detections
+        self.detected_anomalies.clear()
         
         for flow in flows:
             self.order_engine.process_flow(flow)
         
         # Get results from ORDER engine
         order_status = self.order_engine.get_status()
+        anomaly_count_before = results['anomalies_detected']
         results['anomalies_detected'] = order_status['performance_metrics']['anomalies_detected']
         results['processing_time'] = time.time() - start_time
+        
+        # Track which flows were detected (approximate by checking anomaly signatures)
+        # In a real system, ORDER would return the specific flow IDs detected
+        recent_signatures = self.order_engine.get_attack_signatures(limit=len(flows))
+        for sig in recent_signatures:
+            if 'Anomaly_' in sig['name']:
+                flow_id = sig['name'].replace('Anomaly_', '')
+                self.detected_anomalies.add(flow_id)
+                results['detected_flow_ids'].append(flow_id)
         
         return results
     
     def _process_attacks_through_chaos(self, attacks: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Process attacks through CHAOS engine"""
+        """Process attacks through CHAOS engine with proper correlation tracking"""
         results = {
             'total_attacks': len(attacks),
             'successful_attacks': 0,
@@ -371,7 +433,8 @@ class SelfMorphingAICybersecurityEngine:
             'stealth_maintained': 0,
             'detection_avoided': 0,
             'total_damage': 0,
-            'processing_time': 0.0
+            'processing_time': 0.0,
+            'attack_ids': []
         }
         
         start_time = time.time()
@@ -384,6 +447,16 @@ class SelfMorphingAICybersecurityEngine:
                     attack['target_port']
                 )
                 
+                results['attack_ids'].append(attack_id)
+                
+                # Track attack-flow correlation if target flow exists
+                target_flow_id = attack.get('target_flow_id')
+                if target_flow_id:
+                    if attack_id not in self.attack_target_map:
+                        self.attack_target_map[attack_id] = []
+                    self.attack_target_map[attack_id].append(target_flow_id)
+                    self.flow_attack_map[target_flow_id] = attack_id
+                
                 # Simulate attack result
                 attack_success = random.random() < 0.6
                 if attack_success:  # 60% success rate
@@ -394,23 +467,34 @@ class SelfMorphingAICybersecurityEngine:
                 if stealth_ok:  # 70% stealth success
                     results['stealth_maintained'] += 1
                     results['detection_avoided'] += 1
-                # Feedback hook
+                
+                # IMPROVED FEEDBACK: Use actual flow correlation instead of dummy flows
                 if self.enable_online_feedback and self.order_engine and self.order_engine.is_trained:
-                    # On successful attack, consider this as missed detection -> send a negative example
-                    dummy_flow = NetworkFlow(
-                        src_ip=f"203.0.{random.randint(1,254)}.{random.randint(1,254)}",
-                        dst_ip=attack['target_ip'],
-                        src_port=random.randint(1024,65535),
-                        dst_port=attack['target_port'],
-                        protocol=random.choice(['TCP','UDP','HTTP','HTTPS']),
-                        packet_count=random.randint(500,5000),
-                        byte_count=random.randint(65536,1048576),
-                        duration=random.uniform(0.05,2.0),
-                        timestamp=time.time(),
-                        flags='SYN'
-                    )
-                    # Negative label means attack= True -> model should learn anomaly characteristics
-                    self.order_engine.submit_feedback(dummy_flow, is_attack=True)
+                    if target_flow_id and target_flow_id in self.flow_cache:
+                        actual_flow = self.flow_cache[target_flow_id]
+                        
+                        # Determine ground truth and detection status
+                        is_attack = attack_success  # True if attack succeeded
+                        was_detected = target_flow_id in self.detected_anomalies
+                        
+                        # Only send feedback for learning opportunities
+                        if is_attack and not was_detected:
+                            # FALSE NEGATIVE: Attack succeeded but wasn't detected
+                            self.order_engine.submit_feedback(actual_flow, is_attack=True)
+                            self.performance_metrics['false_negatives'] += 1
+                            logging.info(f"Feedback: False negative on flow {target_flow_id} (attack {attack_id})")
+                        elif is_attack and was_detected:
+                            # TRUE POSITIVE: Attack detected correctly
+                            self.performance_metrics['true_positives'] += 1
+                            logging.debug(f"True positive: Attack {attack_id} detected")
+                        elif not is_attack and was_detected:
+                            # FALSE POSITIVE: Normal flow flagged as attack
+                            self.order_engine.submit_feedback(actual_flow, is_attack=False)
+                            self.performance_metrics['false_positives'] += 1
+                            logging.info(f"Feedback: False positive on flow {target_flow_id}")
+                        else:
+                            # TRUE NEGATIVE: Normal flow passed correctly
+                            self.performance_metrics['true_negatives'] += 1
                 
             except Exception as e:
                 logging.error(f"Attack processing failed: {e}")
