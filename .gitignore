@@ -137,18 +137,20 @@ cython_debug/
 # VS Code
 .vscode/
 
-# Project specific
+# Project specific (refined)
+# Keep runtime data & model artifacts under version control
+# Ignore transient logs and large raw dumps
 *.log
 logs/
-data/
-models/
-*.pkl
+data/raw/**
+data/tmp/**
+models/tmp/**
 *.joblib
-*.json
-*.csv
 *.parquet
 *.h5
 *.hdf5
+# Allow JSON, CSV, PKL (model + config) needed for runtime
+# (attack_signatures.json, levels.json, metrics_history.json, scaler/model pickles, dataset samples, etc.)
 
 # OS specific
 .DS_Store
