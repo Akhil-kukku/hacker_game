@@ -66,7 +66,16 @@ class SelfMorphingAICybersecurityEngine:
             'true_positives': 0,  # Attacks correctly detected
             'false_negatives': 0,  # Attacks missed
             'false_positives': 0,  # Normal traffic flagged as attack
-            'true_negatives': 0   # Normal traffic correctly passed
+            'true_negatives': 0,   # Normal traffic correctly passed
+            # Derived metrics (computed periodically)
+            'baseline_accuracy': None,
+            'current_accuracy': None,
+            'accuracy_improvement_percent': None,
+            'baseline_false_positive_rate': None,
+            'current_false_positive_rate': None,
+            'false_positive_reduction_percent': None,
+            'detection_rate_tp': None,  # TP / (TP + FN)
+            'avg_flow_latency_ms': None
         }
         # Feedback toggles
         self.enable_online_feedback = True
@@ -563,6 +572,57 @@ class SelfMorphingAICybersecurityEngine:
                 self.performance_metrics['successful_attacks'] += 1
             
             self.performance_metrics['system_balance_score'] = latest_sim['system_balance']
+            # Update derived metrics after every simulation
+            self._compute_derived_metrics()
+
+    def _compute_derived_metrics(self):
+        """Compute derived detection, accuracy, FP metrics and latency."""
+        tp = self.performance_metrics.get('true_positives', 0)
+        fp = self.performance_metrics.get('false_positives', 0)
+        fn = self.performance_metrics.get('false_negatives', 0)
+        tn = self.performance_metrics.get('true_negatives', 0)
+
+        total = tp + fp + fn + tn
+        # Detection rate based on TP/(TP+FN)
+        if tp + fn > 0:
+            detection_rate_tp = tp / (tp + fn)
+        else:
+            detection_rate_tp = 0.0
+        self.performance_metrics['detection_rate_tp'] = detection_rate_tp
+
+        # Accuracy
+        current_accuracy = ((tp + tn) / total) if total > 0 else 0.0
+        self.performance_metrics['current_accuracy'] = current_accuracy
+        if self.performance_metrics['baseline_accuracy'] is None and total > 20:
+            # Establish baseline after first 20 labeled events
+            self.performance_metrics['baseline_accuracy'] = current_accuracy
+        if self.performance_metrics['baseline_accuracy'] is not None:
+            base = self.performance_metrics['baseline_accuracy']
+            if base > 0:
+                self.performance_metrics['accuracy_improvement_percent'] = (current_accuracy - base) / base * 100.0
+            else:
+                self.performance_metrics['accuracy_improvement_percent'] = None
+
+        # False positive rate
+        if fp + tn > 0:
+            current_fpr = fp / (fp + tn)
+        else:
+            current_fpr = 0.0
+        self.performance_metrics['current_false_positive_rate'] = current_fpr
+        if self.performance_metrics['baseline_false_positive_rate'] is None and (fp + tn) > 20:
+            self.performance_metrics['baseline_false_positive_rate'] = current_fpr
+        if self.performance_metrics['baseline_false_positive_rate'] is not None:
+            base_fp = self.performance_metrics['baseline_false_positive_rate']
+            if base_fp > 0:
+                self.performance_metrics['false_positive_reduction_percent'] = (base_fp - current_fpr) / base_fp * 100.0
+            else:
+                self.performance_metrics['false_positive_reduction_percent'] = None
+
+        # Latency (avg ms per flow) pulled from ORDER engine stats
+        if self.order_engine:
+            order_status = self.order_engine.get_status()
+            avg_ms = order_status['performance_metrics'].get('avg_processing_time_ms')
+            self.performance_metrics['avg_flow_latency_ms'] = avg_ms
     
     def _should_optimize(self) -> bool:
         """Determine if system optimization is needed"""

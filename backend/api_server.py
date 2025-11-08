@@ -137,6 +137,25 @@ async def startup_event():
             logger.info("To add training data, place CSV files in 'CSV Files/' directory")
             logger.info("Expected columns: src_ip, dst_ip, src_port, dst_port, protocol, packet_count, byte_count, duration, flags, label")
         
+        # If test dataset exists, run an initial evaluation to set baseline
+        test_path_chosen = None
+        if dataset_found:
+            import os
+            test_candidates = [
+                "CSV Files/test_data.csv",
+                "../CSV Files/test_data.csv"
+            ]
+            for test_path in test_candidates:
+                if os.path.exists(test_path):
+                    try:
+                        logger.info(f"📊 Evaluating ORDER engine on test dataset: {test_path}")
+                        metrics = engine.order_engine.evaluate_dataset(test_path, label_column='label')
+                        logger.info(f"Evaluation metrics: {metrics}")
+                        test_path_chosen = test_path
+                        break
+                    except Exception as e:
+                        logger.warning(f"⚠️ Evaluation failed on {test_path}: {e}")
+
         # Start engine in background thread
         def run_engine():
             try:
@@ -151,6 +170,21 @@ async def startup_event():
         # Wait for engine to initialize
         await asyncio.sleep(2)
         logger.info("Engine initialized successfully")
+
+        # Schedule periodic evaluation to measure improvements over time
+        if test_path_chosen:
+            def periodic_eval():
+                while True:
+                    try:
+                        time.sleep(15 * 60)  # every 15 minutes
+                        if engine and engine.order_engine:
+                            m = engine.order_engine.evaluate_dataset(test_path_chosen, label_column='label')
+                            logger.info(f"Periodic evaluation metrics: {m}")
+                    except Exception as ex:
+                        logger.warning(f"Periodic evaluation failed: {ex}")
+                        time.sleep(60)
+            th = threading.Thread(target=periodic_eval, daemon=True)
+            th.start()
         
     except Exception as e:
         logger.error(f"Failed to initialize engine: {e}")
@@ -481,6 +515,33 @@ async def order_train_dataset(req: DatasetTrainRequest):
         tb = traceback.format_exc()
         logger.error(f"Dataset training failed: {e}\n{tb}")
         raise HTTPException(status_code=500, detail=f"{e}\n{tb}")
+
+@app.post("/order/evaluate-dataset")
+async def order_evaluate_dataset(req: DatasetTrainRequest):
+    """Evaluate ORDER engine on a labeled dataset (CSV/Parquet)."""
+    if not engine or not engine.order_engine:
+        raise HTTPException(status_code=503, detail="ORDER engine not available")
+    try:
+        metrics = engine.order_engine.evaluate_dataset(req.file_path, req.label_column)
+        return {"message": "Evaluation completed", "metrics": metrics, "summary": engine.order_engine.performance_metrics.get('evaluation_summary', {})}
+    except Exception as e:
+        tb = traceback.format_exc()
+        logger.error(f"Dataset evaluation failed: {e}\n{tb}")
+        raise HTTPException(status_code=500, detail=f"{e}\n{tb}")
+
+@app.get("/order/evaluation-history")
+async def order_evaluation_history(limit: int = 50):
+    """Get recent evaluation history entries."""
+    if not engine or not engine.order_engine:
+        raise HTTPException(status_code=503, detail="ORDER engine not available")
+    try:
+        return {
+            "history": engine.order_engine.get_evaluation_history(limit),
+            "summary": engine.order_engine.performance_metrics.get('evaluation_summary', {})
+        }
+    except Exception as e:
+        logger.error(f"Failed to get evaluation history: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/order/feedback")
 async def order_feedback(req: FeedbackRequest):
